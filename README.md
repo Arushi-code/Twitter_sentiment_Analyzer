@@ -86,8 +86,6 @@ streamlit run app.py
 4. Model Prediction  
 5. Visualization in Streamlit Dashboard
 
-
-
 ## ⚠️ Limitations
 
 - The project uses a simulated tweet stream by default  
