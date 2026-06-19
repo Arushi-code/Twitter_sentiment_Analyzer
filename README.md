@@ -78,6 +78,8 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
+---
+
 ## 📈 Workflow
 
 1. Input Tweet / Fetch Tweets  
