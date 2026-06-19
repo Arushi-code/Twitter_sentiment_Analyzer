@@ -24,7 +24,7 @@ Thumbs.db
 
 # Large model files (optional)
 # Uncomment if you don't want to upload models
-# *.pkl
+data/*.pkl
 
 # API credentials
 .env
