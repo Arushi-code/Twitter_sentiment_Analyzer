@@ -1,68 +1,69 @@
-🐦 Twitter Sentiment Analyzer
-📌 Overview
+# 🐦 Twitter Sentiment Analyzer
+
+## 📌 Overview
+
 Twitter Sentiment Analyzer is a Machine Learning + NLP web application that classifies tweets into:
-😊 Positive
-😐 Neutral
-😡 Negative
+
+- 😊 Positive  
+- 😐 Neutral  
+- 😡 Negative  
+
 It combines traditional ML models and lexicon-based methods with an interactive Streamlit dashboard for real-time sentiment insights.
 
-🚀 Features
-📊 Real-Time Dashboard
-Analyze tweets using hashtags or keywords
-Live sentiment distribution charts
-Trend analysis over time
-Word clouds for positive & negative words
-✍️ Single Tweet Analysis
-Input custom tweet text
-Compare multiple models:
-VADER
-TextBlob
-Logistic Regression
-Multinomial Naive Bayes
-🧠 NLP Pipeline
-Text cleaning (URLs, mentions, punctuation)
-Lowercasing
-Stopword removal
-Lemmatization
-TF-IDF vectorization
-🤖 Machine Learning Models
-Logistic Regression
-Multinomial Naive Bayes
-Model evaluation metrics
-Retraining support
+---
 
-🧰 Tech Stack
-Python
-Streamlit
-Scikit-learn
-Pandas & NumPy
-Matplotlib & Seaborn
-NLTK
-TextBlob
-VADER Sentiment
+## 🚀 Features
 
-📂 Project Structure
+### 📊 Real-Time Dashboard
+- Analyze tweets using hashtags or keywords  
+- Live sentiment distribution charts  
+- Trend analysis over time  
+- Word clouds for positive & negative words  
 
-Twitter_sentiment_Analyzer/
-│
-├── app.py
-├── train_models.py
-├── generate_dataset.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── tweets.csv
-│
-├── assets/
-├── screenshots/
-│
-├── lr_model.pkl
-├── nb_model.pkl
-├── tfidf_vectorizer.pkl
-└── model_metrics.pkl
+### ✍️ Single Tweet Analysis
+- Input custom tweet text  
+- Compare multiple models:
+  - VADER  
+  - TextBlob  
+  - Logistic Regression  
+  - Multinomial Naive Bayes  
 
-⚙️ Installation
+### 🧠 NLP Pipeline
+- Text cleaning (URLs, mentions, punctuation)  
+- Lowercasing  
+- Stopword removal  
+- Lemmatization  
+- TF-IDF vectorization  
+
+### 🤖 Machine Learning Models
+- Logistic Regression  
+- Multinomial Naive Bayes  
+- Model evaluation metrics  
+- Retraining support  
+
+---
+
+## 🧰 Tech Stack
+
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pandas & NumPy  
+- Matplotlib & Seaborn  
+- NLTK  
+- TextBlob  
+- VADER Sentiment  
+
+---
+
+## 📂 Project Structure
+
+Twitter_sentiment_Analyzer/ │ ├── app.py ├── train_models.py ├── generate_dataset.py ├── requirements.txt ├── README.md │ ├── data/ │ └── tweets.csv │ ├── assets/ ├── screenshots/ │ ├── lr_model.pkl ├── nb_model.pkl ├── tfidf_vectorizer.pkl └── model_metrics.pkl
+
+---
+
+## ⚙️ Installation
+
 git clone https://github.com/Arushi-code/Twitter_sentiment_Analyzer.git
 cd Twitter_sentiment_Analyzer
 
@@ -98,4 +99,4 @@ Aarushi Jha
 B.Tech Student | AI & Machine Learning Enthusiast
 
 📜 License
-This project is for educational and internship portfolio use.
+This project is for educational and internship portfolio use
