@@ -75,11 +75,13 @@ pip install -r requirements.txt
 ---
 
 ▶️ Run the App
+
 streamlit run app.py
 
 ---
 
 📈 Workflow
+
 Input Tweet / Fetch Tweets
 Preprocessing (clean + normalize text)
 Feature Extraction (TF-IDF)
@@ -89,6 +91,7 @@ Visualization in Streamlit
 ---
 
 ⚠️ Limitations
+
 Uses simulated tweet stream by default
 Real-time Twitter/X API requires developer access
 API rate limits may apply
@@ -96,6 +99,7 @@ API rate limits may apply
 ---
 
 🔮 Future Improvements
+
 Live Twitter API integration
 BERT / LSTM deep learning models
 Multi-language sentiment detection
@@ -105,10 +109,12 @@ Advanced trend forecasting
 ---
 
 👩‍💻 Author
+
 Aarushi Jha
 B.Tech Student | AI & Machine Learning Enthusiast
 
 ---
 
 📜 License
+
 This project is for educational and internship portfolio use
