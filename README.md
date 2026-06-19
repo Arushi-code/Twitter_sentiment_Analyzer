@@ -74,58 +74,45 @@ pip install -r requirements.txt
 
 ---
 
-▶️ Run the App
-
----
+## ▶️ Run the App
 
 streamlit run app.py
 
----
+## 📈 Workflow
 
-📈 Workflow
+1. Input Tweet / Fetch Tweets  
+2. Preprocessing (clean + normalize text)  
+3. Feature Extraction (TF-IDF)  
+4. Model Prediction  
+5. Visualization in Streamlit Dashboard
 
----
 
-Input Tweet / Fetch Tweets
-Preprocessing (clean + normalize text)
-Feature Extraction (TF-IDF)
-Model Prediction
-Visualization in Streamlit
 
----
+## ⚠️ Limitations
 
-⚠️ Limitations
-
----
-
-Uses simulated tweet stream by default
-Real-time Twitter/X API requires developer access
-API rate limits may apply
+- The project uses a simulated tweet stream by default  
+- Real-time Twitter/X API access requires developer credentials  
+- API usage is subject to rate limits and platform restrictions  
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
+
+- Integrate live Twitter/X API streaming  
+- Implement deep learning models (BERT / LSTM)  
+- Add multi-language sentiment detection  
+- Deploy on Streamlit Cloud / Hugging Face Spaces  
+- Improve trend analysis and forecasting capabilities  
 
 ---
 
-Live Twitter API integration
-BERT / LSTM deep learning models
-Multi-language sentiment detection
-Deployment on Streamlit Cloud
-Advanced trend forecasting
+## 👩‍💻 Author
+
+**Aarushi Jha**  
+B.Tech Student | AI & Machine Learning Enthusiast  
 
 ---
 
-👩‍💻 Author
+## 📜 License
 
----
-
-Aarushi Jha
-B.Tech Student | AI & Machine Learning Enthusiast
-
-
-📜 License
-
----
-
-This project is for educational and internship portfolio use.
+This project is intended for educational and internship portfolio purposes only.
