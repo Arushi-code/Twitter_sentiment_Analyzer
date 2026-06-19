@@ -1,64 +1,47 @@
-Twitter Data Sentiment Analyzer
+🐦 Twitter Sentiment Analyzer
+📌 Overview
+Twitter Sentiment Analyzer is a Machine Learning + NLP web application that classifies tweets into:
+😊 Positive
+😐 Neutral
+😡 Negative
+It combines traditional ML models and lexicon-based methods with an interactive Streamlit dashboard for real-time sentiment insights.
 
-Overview
+🚀 Features
+📊 Real-Time Dashboard
+Analyze tweets using hashtags or keywords
+Live sentiment distribution charts
+Trend analysis over time
+Word clouds for positive & negative words
+✍️ Single Tweet Analysis
+Input custom tweet text
+Compare multiple models:
+VADER
+TextBlob
+Logistic Regression
+Multinomial Naive Bayes
+🧠 NLP Pipeline
+Text cleaning (URLs, mentions, punctuation)
+Lowercasing
+Stopword removal
+Lemmatization
+TF-IDF vectorization
+🤖 Machine Learning Models
+Logistic Regression
+Multinomial Naive Bayes
+Model evaluation metrics
+Retraining support
 
-Twitter Data Sentiment Analyzer is a Machine Learning and Natural Language Processing (NLP) project that classifies tweets into:
+🧰 Tech Stack
+Python
+Streamlit
+Scikit-learn
+Pandas & NumPy
+Matplotlib & Seaborn
+NLTK
+TextBlob
+VADER Sentiment
 
-- Positive Sentiment
-- Negative Sentiment
-- Neutral Sentiment
-
-The project uses:
-
-- TF-IDF Vectorization
-- Logistic Regression
-- Multinomial Naive Bayes
-- VADER Sentiment Analysis
-- TextBlob Sentiment Analysis
-- Streamlit Dashboard
-
-to perform sentiment analysis and visualize results through an interactive web application.
-
----
-
-Features
-
-Real-Time Dashboard
-
-- Analyze tweets based on keywords or hashtags
-- Sentiment distribution visualization
-- Sentiment trend analysis
-- Positive and negative keyword extraction
-- Word cloud generation
-
-Single Tweet Analysis
-
-- Analyze custom tweet text
-- Compare predictions from:
-  - VADER
-  - TextBlob
-  - Logistic Regression
-  - Naive Bayes
-
-NLP Preprocessing Pipeline
-
-- Lowercasing
-- URL removal
-- Username removal
-- Stopword removal
-- Lemmatization
-- TF-IDF transformation
-
-Machine Learning Models
-
-- Logistic Regression Classifier
-- Multinomial Naive Bayes Classifier
-- Model performance metrics
-- Retraining support
-
----
-
-Project Structure
+📂 Project Structure
 
 Twitter_sentiment_Analyzer/
 │
@@ -79,81 +62,40 @@ Twitter_sentiment_Analyzer/
 ├── tfidf_vectorizer.pkl
 └── model_metrics.pkl
 
----
-
-Installation
-
-Clone Repository
-
+⚙️ Installation
 git clone https://github.com/Arushi-code/Twitter_sentiment_Analyzer.git
 cd Twitter_sentiment_Analyzer
 
-Create Virtual Environment
-
 python -m venv myenv
-
-Activate Environment
-
-Windows:
-
-myenv\Scripts\activate
-
-Install Dependencies
+myenv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
 
----
-
-Run Application
-
+▶️ Run the App
 streamlit run app.py
 
-The application will open automatically in your browser.
+📈 Workflow
+Input Tweet / Fetch Tweets
+Preprocessing (clean + normalize text)
+Feature Extraction (TF-IDF)
+Model Prediction
+Visualization in Streamlit
 
----
+⚠️ Limitations
+Uses simulated tweet stream by default
+Real-time Twitter/X API requires developer access
+API rate limits may apply
 
-Technologies Used
+🔮 Future Improvements
+Live Twitter API integration
+BERT / LSTM deep learning models
+Multi-language sentiment detection
+Deployment on Streamlit Cloud
+Advanced trend forecasting
 
-- Python
-- Streamlit
-- Scikit-Learn
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- NLTK
-- TextBlob
-- VADER Sentiment
-- Tweepy
-
----
-
-Limitations
-
-- By default the project uses a simulated tweet stream.
-- Live Twitter/X data requires developer API credentials.
-- Real-time tweet retrieval is subject to Twitter/X API limitations.
-
----
-
-Future Improvements
-
-- Real-time Twitter API integration
-- Deep Learning Models (LSTM/BERT)
-- Multi-language sentiment analysis
-- Deployment on Streamlit Cloud
-- Historical trend analysis
-
----
-
-Author
-
+👩‍💻 Author
 Aarushi Jha
-
 B.Tech Student | AI & Machine Learning Enthusiast
 
----
-
-License
-
-This project is developed for educational and internship portfolio purposes.
+📜 License
+This project is for educational and internship portfolio use.
